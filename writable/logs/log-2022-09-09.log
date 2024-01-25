@@ -1,0 +1,345 @@
+CRITICAL - 2022-09-09 16:38:40 --> Class "App\Controllers\UserModel" not found
+#0 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division()
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-09 16:39:28 --> Class "App\Controllers\DivisionModel" not found
+#0 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division()
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-09-09 16:40:21 --> Table 'linuxmilcl_pratap.division' doesn't exist
+ERROR - 2022-09-09 16:45:14 --> Table 'linuxmilcl_pratap.division' doesn't exist
+ERROR - 2022-09-09 16:45:23 --> Table 'linuxmilcl_pratap.division' doesn't exist
+ERROR - 2022-09-09 16:45:33 --> Table 'linuxmilcl_pratap.division' doesn't exist
+ERROR - 2022-09-09 16:46:52 --> Table 'linuxmilcl_pratap.division' doesn't exist
+ERROR - 2022-09-09 16:47:17 --> Table 'linuxmilcl_pratap.division' doesn't exist
+ERROR - 2022-09-09 16:48:48 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:48:52 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:49:11 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:50:20 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:53:12 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:53:24 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:53:27 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:53:29 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:53:31 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:53:33 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:54:54 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:54:57 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:54:58 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:54:59 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:55:00 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:55:01 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:55:02 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:55:02 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:55:03 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:55:04 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:55:05 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:55:06 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:55:07 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:55:07 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:55:08 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:55:09 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 16:55:10 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:07:13 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:08:30 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:09:25 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:11:27 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:18:43 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:36:54 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:38:09 --> Column 'zone' cannot be null
+CRITICAL - 2022-09-09 17:52:01 --> Undefined property: App\Controllers\UserDashboardController::$
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/linuxmilc...', 51)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-09 17:52:44 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:52:56 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:52:58 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:53:17 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:53:29 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:53:43 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:53:47 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:39 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:39 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:40 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:40 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:40 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:40 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:40 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:40 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:41 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:41 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:41 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:41 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:41 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:42 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:42 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:42 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:42 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:42 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:42 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:43 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:44 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:44 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:44 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:44 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:45 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:45 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:45 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:45 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:45 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:46 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:46 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:46 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:46 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:46 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:46 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:47 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:47 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:47 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:47 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:47 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:53 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:53 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:53 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:53 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:53 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:54 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:54 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:54 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:54 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:54 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:55 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:55 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:55 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:55 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:55 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:55 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:56 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:56 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:56 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:55:56 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:56:27 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:56:27 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:56:27 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:56:27 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:56:27 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:56:27 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:56:28 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:56:28 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:56:28 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:56:28 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:56:28 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:56:29 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:56:29 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:56:29 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:56:29 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:56:29 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:56:29 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:56:30 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:56:30 --> Column 'zone' cannot be null
+ERROR - 2022-09-09 17:56:30 --> Column 'zone' cannot be null
+CRITICAL - 2022-09-09 17:57:12 --> Invalid file: admin/team/add_team.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/team/add_...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/team/add_...', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(39): view('admin/team/add_...')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-09 17:57:36 --> Invalid file: admin/team/division.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/team/divi...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/team/divi...', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(39): view('admin/team/divi...')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-09 17:57:58 --> Invalid file: admin/dashboard/division.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard...', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(39): view('admin/dashboard...')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-09 18:29:48 --> Undefined variable $row
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/division_show.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 24)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(72): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division_show()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-09 18:32:02 --> Undefined variable $row
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/division_show.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 24)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(72): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division_show()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-09 18:34:11 --> Undefined variable $table
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/division_show.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 24)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(71): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division_show()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-09 18:34:14 --> Undefined variable $table
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/division_show.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 24)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(71): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division_show()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-09 18:34:14 --> Undefined variable $table
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/division_show.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 24)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(71): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division_show()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-09 18:34:15 --> Undefined variable $table
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/division_show.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 24)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(71): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division_show()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-09 18:34:15 --> Undefined variable $table
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/division_show.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 24)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(71): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division_show()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-09 18:34:15 --> Undefined variable $table
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/division_show.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 24)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(71): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division_show()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-09 18:34:17 --> Undefined variable $table
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/division_show.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 24)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(71): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division_show()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-09 18:36:54 --> Undefined variable $table
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/division_show.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 24)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(71): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division_show()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-09 18:43:17 --> Undefined variable $table
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/division_show.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 24)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(71): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division_show()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-09 18:47:03 --> Undefined variable $table
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/division_show.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 24)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(71): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division_show()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-09 18:48:07 --> Undefined variable $division
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/division_show.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 24)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(71): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division_show()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-09 18:52:34 --> syntax error, unexpected end of file
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(71): view('frontend/dashbo...')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division_show()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-09 18:53:39 --> Undefined variable $table
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/division_show.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 24)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(71): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division_show()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-09 19:07:35 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(71): view('frontend/dashbo...', Array)
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division_show()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}

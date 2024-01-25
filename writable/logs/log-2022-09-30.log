@@ -1,0 +1,1258 @@
+CRITICAL - 2022-09-30 11:03:16 --> foreach() argument must be of type array|object, null given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(726): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', '/home/linuxmilc...', 726)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->add_price()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 11:05:12 --> foreach() argument must be of type array|object, null given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(726): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', '/home/linuxmilc...', 726)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->add_price()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 11:05:28 --> foreach() argument must be of type array|object, null given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(726): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', '/home/linuxmilc...', 726)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->add_price()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 11:07:46 --> foreach() argument must be of type array|object, null given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(726): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', '/home/linuxmilc...', 726)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->add_price()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 11:07:57 --> foreach() argument must be of type array|object, null given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(726): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', '/home/linuxmilc...', 726)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->add_price()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 11:09:23 --> foreach() argument must be of type array|object, null given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(726): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', '/home/linuxmilc...', 726)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->add_price()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 11:11:00 --> array_combine() expects exactly 2 arguments, 1 given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(734): array_combine(NULL)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->add_price()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 11:20:00 --> Undefined variable $corData
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(745): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 745)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->add_price()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-30 11:22:41 --> Column 'price' cannot be null
+ERROR - 2022-09-30 11:23:00 --> Column 'price' cannot be null
+CRITICAL - 2022-09-30 11:26:45 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_show.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 28)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(778): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_price_show('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:27:03 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_show.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 28)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(778): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_price_show('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:27:52 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_show.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 28)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(778): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_price_show('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:27:56 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_show.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 28)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(778): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_price_show('3')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:30:40 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_show.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 28)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(773): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_price_show('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:30:45 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_show.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 28)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(773): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_price_show('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:30:51 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_show.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 28)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(773): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_price_show('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:34:52 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_show.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 28)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(773): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_price_show('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:34:59 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_show.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 28)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(773): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_price_show('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:36:57 --> Undefined variable $data
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(773): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 773)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_price_show('1')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 11:38:10 --> Undefined variable $pri
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_show.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 28)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(773): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_price_show('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:38:37 --> Undefined variable $pri
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_show.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 28)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(773): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_price_show('3')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:39:17 --> Undefined variable $pri
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_show.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 28)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(773): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_price_show('3')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:39:46 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_show.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 28)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(773): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_price_show('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:41:50 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_show.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 28)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(773): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_price_show('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:41:55 --> Undefined variable $tend
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 14)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:43:06 --> Undefined variable $tend
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 15)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:43:32 --> Undefined variable $tend
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 15)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:43:41 --> Undefined variable $tend
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 15)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('3')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:44:27 --> Array to string conversion
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/home/linuxmilc...', 15)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('3')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:46:16 --> There is no data to insert.
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(696): CodeIgniter\Model->insert(Array)
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('3')
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-30 11:46:34 --> Undefined variable $tend
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 15)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('3')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:47:06 --> Undefined variable $prom
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 15)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('3')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:48:11 --> Undefined variable $get_id
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 15)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('3')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:48:27 --> Undefined variable $get_id
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 15)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('3')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:48:45 --> Undefined variable $get_id
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 15)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('3')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:48:59 --> Undefined variable $get_id
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 15)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:49:14 --> Undefined variable $get_id
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 15)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:49:43 --> Undefined variable $prom
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(692): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 692)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('3')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 11:51:12 --> There is no data to insert.
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(696): CodeIgniter\Model->insert(Array)
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('3')
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-30 11:52:06 --> There is no data to insert.
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(696): CodeIgniter\Model->insert(Array)
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('3')
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-30 11:52:17 --> There is no data to insert.
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(696): CodeIgniter\Model->insert(Array)
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('3')
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-30 11:55:10 --> Column 'tender_id' cannot be null
+CRITICAL - 2022-09-30 11:56:02 --> Undefined variable $tend
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 15)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('3')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:56:37 --> Undefined variable $user
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 15)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('3')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:57:52 --> Undefined variable $tend
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 14)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('3')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:59:29 --> Undefined variable $tend
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 14)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('3')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 11:59:39 --> Undefined variable $tend
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 14)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 12:00:03 --> Undefined variable $tend
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 14)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 12:00:31 --> Undefined variable $tend
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 14)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 12:00:49 --> Undefined variable $tend
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 14)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 12:05:13 --> There is no data to insert.
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(696): CodeIgniter\Model->insert(Array)
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('3')
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-30 12:09:00 --> There is no data to insert.
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/Model.php(625): CodeIgniter\BaseModel->insert(NULL, true)
+#3 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(728): CodeIgniter\Model->insert(NULL)
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->add_price()
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-30 12:10:02 --> Undefined variable $id
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(710): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 710)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->add_price()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 12:11:50 --> Undefined variable $tend
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 14)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('3')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 12:13:48 --> Undefined variable $tend
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 14)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(699): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('3')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 12:26:10 --> Call to undefined method App\Models\PriceModel::dataInsert
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(726): CodeIgniter\Model->__call('dataInsert', Array)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->add_price()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 12:27:41 --> Call to undefined method App\Models\PriceModel::dataInsert
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(726): CodeIgniter\Model->__call('dataInsert', Array)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->add_price()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-30 12:30:20 --> Column 'tender_id' cannot be null
+ERROR - 2022-09-30 12:30:59 --> Column 'tender_id' cannot be null
+CRITICAL - 2022-09-30 12:44:59 --> Undefined variable $pri
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(800): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 12:45:27 --> Undefined variable $pri
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 18)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(800): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:06:58 --> Undefined variable $pri
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 18)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(800): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:12:20 --> Undefined variable $pri
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 18)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(800): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:13:28 --> Undefined variable $pri
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 18)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(800): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:13:59 --> Undefined variable $pri
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 18)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(800): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:14:15 --> Undefined variable $pri
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 18)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(800): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:19:34 --> Undefined variable $pri
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 18)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(800): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:19:38 --> Undefined variable $pri
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 18)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(800): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:20:23 --> Undefined variable $pri
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 18)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(800): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:20:28 --> Undefined variable $pri
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 18)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(800): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:36:31 --> Undefined variable $pri
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(814): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 814)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 13:36:48 --> Undefined variable $pri
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(814): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 814)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 13:38:54 --> Undefined variable $doc
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(800): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:39:57 --> Undefined variable $pri
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(800): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:40:14 --> Undefined variable $pri
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(800): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:40:23 --> Undefined variable $pri
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(800): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:40:51 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(822): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:42:39 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(822): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:42:51 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(822): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:43:04 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 19)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(822): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:45:09 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 19)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(822): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:45:18 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 19)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(822): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:51:25 --> Undefined variable $pri
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(814): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 814)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 13:54:33 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:54:36 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:54:37 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:54:38 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:54:40 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:54:41 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:08 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:10 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:11 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:12 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:13 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:14 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:15 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:16 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:17 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:18 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:18 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:19 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:19 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:19 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:20 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:20 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:20 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:20 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:20 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:21 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:21 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:21 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:21 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:21 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:22 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:24 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:24 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:25 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:26 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:26 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:26 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:27 --> Cannot redeclare App\Controllers\UserDashboardController::rfp_extractor()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-30 13:55:56 --> Undefined array key "document_type"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 19)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(837): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:56:56 --> Undefined array key "document_type"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 19)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(837): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 13:57:03 --> Undefined array key "document_type"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 19)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(837): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 14:04:05 --> Undefined array key "document_type"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 19)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(838): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 14:04:32 --> Undefined array key "document_name_val"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 19)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(838): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 14:04:53 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 19)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(838): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 14:05:41 --> Undefined array key "document_name_val"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 19)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(838): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 14:06:16 --> Undefined array key "document_name_val"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 19)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(838): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 14:06:22 --> Undefined array key "id"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 11)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(838): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 14:06:35 --> Undefined array key "id"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 11)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(838): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 14:17:30 --> Undefined array key "id"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(838): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 14:17:56 --> Undefined array key "document_name_val"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 25)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(838): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 14:18:45 --> Undefined array key "document_name_val"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 25)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(838): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 15:02:30 --> Undefined array key "id"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 31)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(824): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 15:04:11 --> Undefined array key "id"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 31)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(824): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 15:15:15 --> Undefined array key "id"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/rfp_extrctor.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(824): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-30 15:16:52 --> Column 'document_file' cannot be null
+ERROR - 2022-09-30 15:18:11 --> Column 'document_file' cannot be null
+ERROR - 2022-09-30 15:20:53 --> Column 'document_file' cannot be null
+CRITICAL - 2022-09-30 15:22:42 --> Undefined property: App\Controllers\UserDashboardController::$input
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(802): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/linuxmilc...', 802)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->add_rfp()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 15:30:06 --> Undefined variable $tenModel
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(802): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 802)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 15:30:07 --> Undefined variable $tenModel
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(802): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 802)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 15:30:08 --> Undefined variable $tenModel
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(802): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 802)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 15:30:10 --> Undefined variable $tenModel
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(802): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 802)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 15:30:15 --> Undefined variable $tenModel
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(802): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 802)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 15:31:02 --> Undefined variable $id
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(803): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 803)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-30 15:31:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+AND `document_type` = 'nit_document'' at line 3
+CRITICAL - 2022-09-30 15:31:45 --> Call to a member function getResult() on bool
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(804): CodeIgniter\BaseModel->findAll()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-30 15:32:48 --> Undefined variable $get_id
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(804): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 804)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-30 15:33:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+AND `document_type` = 'document_name'' at line 3
+CRITICAL - 2022-09-30 15:33:19 --> Call to a member function getResult() on bool
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(804): CodeIgniter\BaseModel->findAll()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->rfp_extractor()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-30 15:43:16 --> syntax error, unexpected token ";", expecting ")"
+#0 /home/linuxmilcl/public_html/projects/pratap/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxmilc...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-30 15:43:18 --> syntax error, unexpected token ";", expecting ")"
+#0 /home/linuxmilcl/public_html/projects/pratap/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxmilc...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-30 15:43:20 --> syntax error, unexpected token ";", expecting ")"
+#0 /home/linuxmilcl/public_html/projects/pratap/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxmilc...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-30 15:43:21 --> syntax error, unexpected token ";", expecting ")"
+#0 /home/linuxmilcl/public_html/projects/pratap/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxmilc...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-30 15:46:51 --> Undefined property: App\Controllers\UserDashboardController::$input
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(808): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/linuxmilc...', 808)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->add_rfp()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 15:49:48 --> syntax error, unexpected token ";", expecting ")"
+#0 /home/linuxmilcl/public_html/projects/pratap/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('UserDashboardCo...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('UserDashboardCo...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 15:50:16 --> syntax error, unexpected token ";", expecting ")"
+#0 /home/linuxmilcl/public_html/projects/pratap/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('UserDashboardCo...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('UserDashboardCo...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 16:12:18 --> Undefined variable $tend
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 11)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(700): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 16:12:45 --> Undefined variable $get_id
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 11)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(700): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 17:17:45 --> Undefined variable $get_id
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/price_data.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 11)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(701): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->price_edit('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}

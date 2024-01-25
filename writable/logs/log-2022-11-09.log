@@ -1,0 +1,459 @@
+CRITICAL - 2022-11-09 11:17:28 --> Undefined variable $pd_users_data
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/admin_user/pd_users/view_user.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 127)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin_user/pd_u...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(40): view('admin_user/pd_u...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 12:29:50 --> Undefined variable $pd_users_dataval
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/tender_view.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 70)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(115): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_show()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 13:13:10 --> Undefined array key "financial"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/admin_user/document/add_common.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 121)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin_user/docu...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(85): view('admin_user/docu...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->document_common()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 13:13:26 --> Undefined array key "financial"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/admin_user/document/add_financial.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 122)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin_user/docu...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(72): view('admin_user/docu...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->document_financial()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 13:13:38 --> Undefined array key "financial"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/admin_user/document/add_financial.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 122)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin_user/docu...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(72): view('admin_user/docu...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->document_financial()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 13:39:19 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('T000101', 'insert')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Model.php(625): CodeIgniter\BaseModel->insert('T000101', true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(985): CodeIgniter\Model->insert('T000101')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-09 14:07:23 --> Undefined variable $workCheck
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(980): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 980)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 14:08:15 --> Undefined variable $workCheck
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(980): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 980)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 14:09:01 --> Undefined variable $docCheck
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(980): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 980)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 14:10:53 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('T000101', 'insert')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Model.php(625): CodeIgniter\BaseModel->insert('T000101', true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(985): CodeIgniter\Model->insert('T000101')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-09 14:13:06 --> Undefined variable $workitem
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(981): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 981)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 14:13:33 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('T000101', 'insert')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Model.php(625): CodeIgniter\BaseModel->insert('T000101', true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(983): CodeIgniter\Model->insert('T000101')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-09 14:22:29 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('T000101', 'insert')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Model.php(625): CodeIgniter\BaseModel->insert('T000101', true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(984): CodeIgniter\Model->insert('T000101')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-09 14:41:28 --> Call to undefined function App\Controllers\array_murge()
+#0 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-09 14:43:37 --> array_merge(): Argument #1 must be of type array, null given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(967): array_merge(NULL, NULL)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 14:46:32 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/home/linuxmilc...', 967)
+#1 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(967): array_combine(Array, Array)
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-09 14:47:07 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/home/linuxmilc...', 967)
+#1 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(967): array_combine(Array, Array)
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-09 14:47:44 --> array_combine(): Argument #1 ($keys) must be of type array, null given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(967): array_combine(NULL, NULL)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 14:52:20 --> array_combine(): Argument #1 ($keys) must be of type array, null given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(967): array_combine(NULL, NULL)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 15:34:16 --> Undefined variable $coria
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/document_assign_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(930): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_checkr_assign_view('T000101')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 15:37:27 --> Undefined variable $coria
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/document_assign_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(930): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_checkr_assign_view('T000101')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 15:40:48 --> Undefined variable $pri
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/document_assign_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(930): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_checkr_assign_view('T000101')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 15:41:05 --> Undefined array key "id"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/document_assign_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(930): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_checkr_assign_view('T000101')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 15:41:36 --> Undefined array key "tender_id"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/document_assign_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(930): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_checkr_assign_view('T000101')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 15:41:42 --> Undefined array key "tender_id"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/document_assign_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(930): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_checkr_assign_view('T000101')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 15:42:05 --> Undefined array key "tender_id"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/document_assign_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(930): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_checkr_assign_view('T000101')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 15:42:07 --> Undefined array key "tender_id"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/document_assign_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(930): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_checkr_assign_view('T000101')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 15:50:14 --> Undefined variable $coria
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/document_assign_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(935): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_checkr_assign_view('T000101')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 15:57:04 --> array_combine(): Argument #1 ($keys) must be of type array, null given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(973): array_combine(NULL, NULL)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 15:57:12 --> array_combine(): Argument #1 ($keys) must be of type array, null given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(973): array_combine(NULL, NULL)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 15:58:28 --> array_combine() expects exactly 2 arguments, 4 given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(973): array_combine(NULL, NULL, NULL, NULL)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 15:58:36 --> array_combine() expects exactly 2 arguments, 4 given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(973): array_combine(Array, Array, 'T000101', Array)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 15:59:02 --> array_combine(): Argument #1 ($keys) must be of type array, null given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(973): array_combine(NULL, NULL)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 15:59:12 --> array_combine(): Argument #1 ($keys) must be of type array, string given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(973): array_combine('T000101', Array)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 15:59:22 --> array_combine(): Argument #1 ($keys) must be of type array, string given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(973): array_combine('T000101', Array)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 16:00:12 --> array_combine(): Argument #1 ($keys) must be of type array, null given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(973): array_combine(NULL, NULL)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 16:00:21 --> array_combine(): Argument #1 ($keys) must be of type array, string given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(973): array_combine('Technical', 'vb')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 16:00:37 --> array_combine(): Argument #1 ($keys) must be of type array, null given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(973): array_combine(NULL, NULL)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 16:00:45 --> array_combine(): Argument #1 ($keys) must be of type array, string given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(973): array_combine('Technical', 'vb')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 16:01:24 --> array_combine(): Argument #1 ($keys) must be of type array, null given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(973): array_combine(NULL, NULL)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 16:03:53 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('hfghfg', 'insert')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Model.php(625): CodeIgniter\BaseModel->insert('hfghfg', true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(988): CodeIgniter\Model->insert('hfghfg')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->document_assign()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-09 16:24:31 --> Undefined array key "financial"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/admin_user/document/add_common.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 121)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin_user/docu...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(85): view('admin_user/docu...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->document_common()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 16:47:18 --> Undefined variable $UserfrontModel
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/AdminUserlist.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 50)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\AdminUserlist->create()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminUserlist))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 16:47:27 --> Undefined variable $UserfrontModel
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/AdminUserlist.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 27)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\AdminUserlist->index()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminUserlist))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 16:48:04 --> Undefined variable $UserfrontModel
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/AdminUserlist.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 50)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\AdminUserlist->create()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminUserlist))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 16:49:02 --> Undefined array key "first_name"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/admin_user/pd_users/view_user.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 147)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin_user/pd_u...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/AdminUserlist.php(37): view('admin_user/pd_u...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\AdminUserlist->index()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminUserlist))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 17:19:44 --> Undefined array key "financial"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/admin_user/document/add_financial.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 164)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin_user/docu...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(72): view('admin_user/docu...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->document_financial()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 17:30:06 --> Unknown column 'email_id' in 'where clause'
+CRITICAL - 2022-11-09 17:30:06 --> Call to a member function getFirstRow() on bool
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/SigninController.php(65): CodeIgniter\BaseModel->first()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\SigninController->loginAuth()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-11-09 17:30:14 --> Unknown column 'email_id' in 'where clause'
+CRITICAL - 2022-11-09 17:30:14 --> Call to a member function getFirstRow() on bool
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/SigninController.php(65): CodeIgniter\BaseModel->first()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\SigninController->loginAuth()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-09 17:31:28 --> Undefined variable $pd_users_data
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/admin_user/pd_users/view_user.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 129)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin_user/pd_u...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(40): view('admin_user/pd_u...')
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 17:31:56 --> Undefined array key "employee_id"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/admin_user/pd_users/edit_user.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 102)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin_user/pd_u...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/AdminUserlist.php(301): view('admin_user/pd_u...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\AdminUserlist->singleuser('2')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminUserlist))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 17:32:05 --> Undefined array key "employee_id"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/admin_user/pd_users/edit_user.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 102)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin_user/pd_u...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/AdminUserlist.php(301): view('admin_user/pd_u...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\AdminUserlist->singleuser('2')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminUserlist))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,181 @@
+CRITICAL - 2022-07-16 14:02:50 --> Unclosed '{' on line 183
+#0 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#2 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(95): view('frontend/dashbo...', Array)
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->book_meeting()
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-16 14:03:16 --> Undefined variable $query
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/dashboard/book_meeting.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 183)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(95): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->book_meeting()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-16 14:05:10 --> Undefined variable $idea_description
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(339): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 339)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->insert_meeting()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-16 16:54:34 --> Class "App\Controllers\BookingModel" not found
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->pitchdeck_userdetails('13')
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-16 22:26:32 --> Class "App\Controllers\blogscategoryModel" not found
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Blogs->create()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blogs))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-16 22:27:22 --> Invalid file: admin/blogs/add_blog.php
+#0 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/blogs/add...')
+#1 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/blogs/add...', Array, true)
+#2 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Blogs.php(30): view('admin/blogs/add...', Array)
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Blogs->create()
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blogs))
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-16 22:28:53 --> Invalid file: admin/blogs/add_blog.php
+#0 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/blogs/add...')
+#1 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/blogs/add...', Array, true)
+#2 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Blogs.php(30): view('admin/blogs/add...', Array)
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Blogs->create()
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blogs))
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-16 22:29:13 --> Undefined variable $credits_cat_data
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/blogs/add_blog.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 74)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/blogs/add...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Blogs.php(30): view('admin/blogs/add...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Blogs->create()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blogs))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-16 22:40:45 --> Undefined variable $blogscategoryModel
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Blogs.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 28)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Blogs->create()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blogs))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-16 22:41:26 --> Undefined variable $blogscategoryModel
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Blogs.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 28)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Blogs->create()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blogs))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-16 22:46:00 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:01 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:01 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:01 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:01 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:01 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:01 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:02 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:02 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:02 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:02 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:02 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:03 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:03 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:03 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:03 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:03 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:03 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:04 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:04 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:05 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:05 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:06 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:06 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:06 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:06 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:06 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:06 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:07 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:07 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:07 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:07 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:07 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:08 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:08 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:08 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:08 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:08 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:08 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:09 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:09 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:09 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:09 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:09 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:09 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:10 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:10 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:10 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:10 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:10 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:11 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:11 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:11 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:11 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:11 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:11 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:12 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:17 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:17 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:17 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:18 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:18 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:18 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:18 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:18 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:19 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:19 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:19 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:19 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:19 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:20 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:20 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:20 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:20 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:20 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:21 --> Column 'category_name' cannot be null
+ERROR - 2022-07-16 22:46:21 --> Column 'category_name' cannot be null
+CRITICAL - 2022-07-16 22:48:16 --> Undefined variable $credits_cat
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/blogs/add_blog.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 66)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/blogs/add...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Blogs.php(30): view('admin/blogs/add...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Blogs->create()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blogs))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-16 22:48:16 --> Undefined variable $credits_cat
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/blogs/add_blog.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 66)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/blogs/add...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Blogs.php(30): view('admin/blogs/add...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Blogs->create()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blogs))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

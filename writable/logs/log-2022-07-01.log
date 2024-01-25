@@ -1,0 +1,168 @@
+CRITICAL - 2022-07-01 01:36:57 --> Cannot redeclare App\Controllers\UserDashboardController::validate_idea()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-01 04:27:46 --> Undefined variable $userid
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 42)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->startup_store()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 04:34:45 --> Undefined variable $userid
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 42)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->startup_store()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-01 04:46:45 --> Unknown column 'submit_date' in 'field list'
+ERROR - 2022-07-01 04:47:55 --> Unknown column 'submit_date' in 'field list'
+CRITICAL - 2022-07-01 05:01:47 --> Undefined variable $userdata
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/dashboard/index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 1)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(12): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->index()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 05:44:15 --> Undefined variable $id
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 11)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->index()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 05:44:44 --> view(): Argument #2 ($data) must be of type array, App\Models\UserDashboardModel given, called in /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php on line 13
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(13): view('frontend/dashbo...', Object(App\Models\UserDashboardModel))
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->index()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 09:00:16 --> syntax error, unexpected token ";"
+#0 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#2 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(13): view('frontend/dashbo...', Array)
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 09:03:09 --> syntax error, unexpected token ";"
+#0 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#2 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(13): view('frontend/dashbo...', Array)
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 11:22:17 --> Invalid file: frontend/dashboard/build_rodemap.php
+#0 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/dashbo...')
+#1 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#2 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(39): view('frontend/dashbo...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->build_rodemap()
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 12:23:24 --> Call to a member function getClientName() on null
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->validate_idea_store()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-01 12:24:22 --> Call to a member function getClientName() on null
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->validate_idea_store()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-01 12:26:46 --> Call to a member function getClientName() on null
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->validate_idea_store()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-01 12:27:51 --> Call to a member function getClientName() on null
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->validate_idea_store()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-01 12:28:27 --> Call to a member function getClientName() on null
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->validate_idea_store()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-01 12:29:05 --> Call to a member function getClientName() on null
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->validate_idea_store()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-01 12:39:08 --> Undefined variable $startup_stage
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 107)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->validate_idea_store()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 12:39:40 --> Undefined variable $select_industry
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 108)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->validate_idea_store()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 12:40:17 --> Undefined variable $msg
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 116)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->validate_idea_store()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 12:48:23 --> There is no data to update.
+#0 /home/linuxmilcl/public_html/projects/etp/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/linuxmilcl/public_html/projects/etp/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home/linuxmilcl/public_html/projects/etp/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(112): CodeIgniter\Model->update(Array)
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->validate_idea_store()
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-01 12:50:01 --> There is no data to update.
+#0 /home/linuxmilcl/public_html/projects/etp/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/linuxmilcl/public_html/projects/etp/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home/linuxmilcl/public_html/projects/etp/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(112): CodeIgniter\Model->update(Array)
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->validate_idea_store()
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-01 13:48:00 --> Undefined variable $userModel
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 138)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->insert_roadmap()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 13:49:01 --> Undefined property: App\Controllers\UserDashboardController::$db
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/linuxmilc...', 148)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->insert_roadmap()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-01 13:51:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''submit_date'='01-07-2022' WHERE user_id = 3' at line 1
+ERROR - 2022-07-01 13:52:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''submit_date'='01-07-2022' WHERE id = 3' at line 1
+ERROR - 2022-07-01 13:53:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' roadmap_date = ,'submit_date'=01-07-2022 WHERE id = 3' at line 1
+ERROR - 2022-07-01 13:54:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' roadmap_date = ,'submit_date'=01-07-2022 WHERE id = 3' at line 1
+ERROR - 2022-07-01 13:56:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' roadmap_date = ,'submit_date'=01-07-2022,'user_id'=1' at line 1
+ERROR - 2022-07-01 13:59:17 --> Table 'linuxmilcl_cidemo.tbl_users' doesn't exist

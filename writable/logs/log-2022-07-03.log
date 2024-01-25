@@ -1,0 +1,170 @@
+CRITICAL - 2022-07-03 04:31:10 --> Class "App\Models\BookmeetingModel" not found
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Mentor->store()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mentor))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-03 04:32:18 --> Class "App\Models\BookmeetingModel" not found
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Mentor->store()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mentor))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-03 04:33:10 --> Class "App\Models\BookmeetingModel" not found
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Mentor->store()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mentor))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-03 04:34:10 --> Class "App\Models\BookingmeetingModel" not found
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Mentor->store()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mentor))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-03 04:35:34 --> Class "App\Controllers\BookingmeetingModel" not found
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Mentor->store()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mentor))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-03 04:50:31 --> Undefined variable $team_data
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/mentors/view_mentor.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 48)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/mentors/v...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Mentor.php(18): view('admin/mentors/v...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Mentor->index()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mentor))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-03 04:56:05 --> Undefined variable $team_dataval
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/mentors/view_mentor.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 50)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/mentors/v...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Mentor.php(18): view('admin/mentors/v...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Mentor->index()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mentor))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-03 04:56:25 --> Undefined array key "designation"
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/mentors/view_mentor.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 59)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/mentors/v...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Mentor.php(18): view('admin/mentors/v...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Mentor->index()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mentor))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-03 06:24:41 --> Undefined array key "designation"
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/mentors/view_mentor.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 59)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/mentors/v...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Mentor.php(18): view('admin/mentors/v...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Mentor->index()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mentor))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-03 06:25:52 --> Undefined array key "member_name"
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/mentors/edit_mentor.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 51)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/mentors/e...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Mentor.php(115): view('admin/mentors/e...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Mentor->singleMentor('1')
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mentor))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-03 06:27:46 --> Undefined array key "member_name"
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/mentors/edit_mentor.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 51)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/mentors/e...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Mentor.php(115): view('admin/mentors/e...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Mentor->singleMentor('1')
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mentor))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-03 06:31:30 --> Column 'expertise' cannot be null
+CRITICAL - 2022-07-03 06:36:15 --> Undefined variable $expertise
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Mentor.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 153)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Mentor->update()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mentor))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-03 06:37:10 --> Call to a member function getClientName() on null
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Mentor->update()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mentor))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-03 06:37:20 --> Undefined variable $expertise
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Mentor.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 153)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Mentor->update()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mentor))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-03 06:38:14 --> Undefined variable $price
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Mentor.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 150)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Mentor->update()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mentor))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-03 06:39:00 --> Undefined variable $submit_date
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Mentor.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 152)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Mentor->update()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mentor))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-03 06:53:19 --> Class "App\Controllers\BookmeetingModel" not found
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->book_meeting()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-03 06:53:46 --> Undefined variable $mentor_booking
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/dashboard/book_meeting.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 72)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(80): view('frontend/dashbo...')
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->book_meeting()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-03 06:54:21 --> Undefined variable $mentor_name
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/dashboard/book_meeting.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 81)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(80): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->book_meeting()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-03 06:55:24 --> Attempt to read property "mentor_name" on array
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/dashboard/book_meeting.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/home/linuxmilc...', 81)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(80): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->book_meeting()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

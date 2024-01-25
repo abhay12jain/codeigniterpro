@@ -1,0 +1,266 @@
+CRITICAL - 2022-06-29 01:17:53 --> Invalid file: signup.php
+#0 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 /home/linuxmilcl/public_html/projects/etp/app/Controllers/SignupController.php(12): view('signup', Array)
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\SignupController->index()
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-29 01:29:50 --> require_once(public_header.php): Failed to open stream: No such file or directory
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/signin.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(pu...', '/home/linuxmilc...', 1)
+#1 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/signin.php(1): require_once()
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/signin', Array, true)
+#5 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Usersignin.php(11): view('frontend/signin')
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->index()
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#8 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-29 01:41:28 --> Undefined variable $data
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Usersignin.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 13)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->index()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 01:42:07 --> Undefined variable $page_datas
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/templates/public_header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 6)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('templates/publi...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Usersignin.php(12): view('templates/publi...')
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->index()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 01:42:43 --> Undefined variable $page_datas
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/templates/public_header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 6)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('templates/publi...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Usersignin.php(12): view('templates/publi...')
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->index()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 01:43:00 --> Undefined variable $page_datas
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/templates/public_header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 6)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('templates/publi...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Usersignin.php(12): view('templates/publi...')
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->index()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 01:43:17 --> Undefined variable $page_datas
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/templates/public_header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 6)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('templates/publi...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Usersignin.php(12): view('templates/publi...')
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->index()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 01:49:45 --> syntax error, unexpected token "echo"
+#0 /home/linuxmilcl/public_html/projects/etp/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxmilc...')
+#1 /home/linuxmilcl/public_html/projects/etp/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-29 01:50:05 --> syntax error, unexpected token "echo"
+#0 /home/linuxmilcl/public_html/projects/etp/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxmilc...')
+#1 /home/linuxmilcl/public_html/projects/etp/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-29 01:51:19 --> Undefined variable $page_datas
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/templates/public_header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 6)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('templates/publi...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Usersignin.php(12): view('templates/publi...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->index()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 02:27:05 --> Cannot access offset of type string on string
+#0 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include()
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('templates/publi...', Array, true)
+#3 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Usersignin.php(14): view('templates/publi...', Array)
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->index()
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-29 03:23:42 --> Invalid file: signup.php
+#0 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 /home/linuxmilcl/public_html/projects/etp/app/Controllers/SignupController.php(12): view('signup', Array)
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\SignupController->index()
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-29 03:24:49 --> Invalid file: signup.php
+#0 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 /home/linuxmilcl/public_html/projects/etp/app/Controllers/SignupController.php(12): view('signup', Array)
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\SignupController->index()
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-29 11:42:12 --> Undefined variable $validation
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/signup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 33)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/signup', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Usersignup.php(11): view('frontend/signup')
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignup->index()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignup))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 11:42:16 --> Undefined variable $validation
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/signup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 33)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/signup', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Usersignup.php(11): view('frontend/signup')
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignup->index()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignup))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 11:49:58 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, array given, called in /home/linuxmilcl/public_html/projects/etp/app/Controllers/Usersignup.php on line 44
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Usersignup.php(44): CodeIgniter\HTTP\RedirectResponse->to('/frontend/signu...', Array)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignup->store()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignup))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-29 11:56:35 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-06-29 11:56:35 --> Call to a member function getRow() on bool
+#0 /home/linuxmilcl/public_html/projects/etp/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('farhan@admin.co...', 'email', Array, NULL)
+#1 /home/linuxmilcl/public_html/projects/etp/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('email_id', 'email_id', 'farhan@admin.co...', Array, Array)
+#2 /home/linuxmilcl/public_html/projects/etp/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Usersignup.php(27): CodeIgniter\Controller->validate(Array)
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignup->store()
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignup))
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-29 11:58:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::save()
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignup->store()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignup))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 12:10:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::save()
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignup->store()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignup))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 12:11:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::tables()
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignup->store()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignup))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 12:11:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::save()
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignup->store()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignup))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 12:35:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->loginAuth()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 12:38:20 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->loginAuth()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 12:39:30 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->loginAuth()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 12:39:55 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->loginAuth()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 12:41:32 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->loginAuth()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 12:46:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->loginAuth()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 12:58:18 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->loginAuthfront()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 12:59:09 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$email_id
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Usersignin.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/linuxmilc...', 28)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->loginAuthfront()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 12:59:57 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->loginAuthfront()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 13:03:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->loginAuthfront()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 13:06:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->loginAuthfront()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 13:14:22 --> Class "CodeIgniter\Model\UserfrontModel" not found
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->loginAuthfront()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

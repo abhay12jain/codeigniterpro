@@ -1,0 +1,235 @@
+CRITICAL - 2022-07-06 14:38:19 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/dashboard/index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(17): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->index()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-06 14:40:33 --> Undefined variable $className
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/dashboard/index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 25)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(17): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->index()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-06 14:44:29 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/dashboard/index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(17): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->index()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-06 14:44:45 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/dashboard/index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(17): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->index()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-06 14:44:50 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/dashboard/index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 10)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/UserDashboardController.php(17): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->index()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-06 15:56:46 --> Undefined array key ""
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/user_pitchdetails.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 85)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/user_pitc...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(21): view('admin/user_pitc...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->pitchdeck_userdetails('3')
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-06 15:58:40 --> Undefined array key "startup_stage"
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/user_pitchdetails.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 87)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/user_pitc...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(21): view('admin/user_pitc...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->pitchdeck_userdetails('3')
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-06 16:57:14 --> Undefined array key "id"
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/user_pitchdetails.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 121)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/user_pitc...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(21): view('admin/user_pitc...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->pitchdeck_userdetails('3')
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-06 16:57:47 --> Undefined variable $id
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/user_pitchdetails.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 121)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/user_pitc...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(21): view('admin/user_pitc...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->pitchdeck_userdetails('3')
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-06 18:08:01 --> Undefined variable $id
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/user_pitchdetails.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 121)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/user_pitc...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(21): view('admin/user_pitc...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->pitchdeck_userdetails('3')
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-06 18:11:59 --> Undefined variable $uri
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/user_pitchdetails.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 120)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/user_pitc...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(21): view('admin/user_pitc...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->pitchdeck_userdetails('3')
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-06 18:13:02 --> Undefined variable $uri
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/user_pitchdetails.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 120)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/user_pitc...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(21): view('admin/user_pitc...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->pitchdeck_userdetails('3')
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-06 18:25:02 --> There is no data to update.
+#0 /home/linuxmilcl/public_html/projects/etp/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/linuxmilcl/public_html/projects/etp/system/Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(39): CodeIgniter\Model->update('3', Array)
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->pitchdeck_status()
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-06 19:59:11 --> There is no data to update.
+#0 /home/linuxmilcl/public_html/projects/etp/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/linuxmilcl/public_html/projects/etp/system/Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(40): CodeIgniter\Model->update('3', Array)
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->pitchdeck_status()
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-06 21:22:10 --> Undefined array key "tracking_status1"
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/user_pitchdetails.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 147)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/user_pitc...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(21): view('admin/user_pitc...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->pitchdeck_userdetails('3')
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-06 21:44:57 --> There is no data to update.
+#0 /home/linuxmilcl/public_html/projects/etp/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/linuxmilcl/public_html/projects/etp/system/Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(37): CodeIgniter\Model->update('3', Array)
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->pitchdeck_status()
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-06 21:45:54 --> There is no data to update.
+#0 /home/linuxmilcl/public_html/projects/etp/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/linuxmilcl/public_html/projects/etp/system/Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(37): CodeIgniter\Model->update('3', Array)
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->pitchdeck_status()
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-06 21:46:56 --> Undefined variable $status
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 57)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->update_tracking_status()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-06 21:50:25 --> Undefined variable $status
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 56)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->update_tracking_status()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-06 21:51:03 --> Undefined variable $status
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 62)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->update_tracking_status()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-06 22:47:26 --> Class "App\Controllers\RoadmapModel" not found
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->pitchdeck_userdetails('3')
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-06 23:32:35 --> syntax error, unexpected token "endif"
+#0 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/user_pitc...', Array, true)
+#2 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(25): view('admin/user_pitc...', Array)
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->pitchdeck_userdetails('3')
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-06 23:55:30 --> syntax error, unexpected token "}", expecting "elseif" or "else" or "endif"
+#0 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/user_pitc...', Array, true)
+#2 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(29): view('admin/user_pitc...', Array)
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->pitchdeck_userdetails('3')
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-06 23:58:32 --> Undefined array key "phone_number "
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/user_pitchdetails.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 359)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/user_pitc...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(29): view('admin/user_pitc...', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->pitchdeck_userdetails('3')
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

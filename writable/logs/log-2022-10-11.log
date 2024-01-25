@@ -1,0 +1,144 @@
+CRITICAL - 2022-10-11 17:57:33 --> Invalid file: admin/signin.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/signin.ph...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/signin', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/SigninController.php(11): view('admin/signin')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\SigninController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-11 17:58:31 --> Invalid file: admin/signin.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/signin.ph...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/signin', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/SigninController.php(11): view('admin/signin')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\SigninController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-11 18:01:04 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(18): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-11 18:03:14 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(18): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-11 18:03:32 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(18): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-11 18:14:27 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(18): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-11 18:14:30 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(18): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-11 18:23:30 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(18): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-11 18:29:24 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(18): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-11 18:30:28 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(18): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-11 18:30:43 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(18): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-11 18:38:38 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(18): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-11 18:39:35 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(18): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-11 18:46:57 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(18): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-11 18:47:49 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(18): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-11 18:50:39 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(18): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}

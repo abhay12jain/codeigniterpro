@@ -1,0 +1,23 @@
+CRITICAL - 2022-10-22 11:51:27 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(38): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-22 12:26:52 --> foreach() argument must be of type array|object, null given
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(430): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', '/home/linuxmilc...', 430)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_update()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-22 12:48:30 --> syntax error, unexpected token "public"
+#0 /home/linuxmilcl/public_html/projects/pratap/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('UserDashboardCo...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('UserDashboardCo...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

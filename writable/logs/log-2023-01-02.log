@@ -1,0 +1,18 @@
+CRITICAL - 2023-01-02 18:35:18 --> Class "App\Models\BlogModel" not found
+#0 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\Frontend->index()
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-02 18:37:43 --> Class "App\Models\BlogModel" not found
+#0 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\Frontend->index()
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-02 18:54:04 --> Class "App\Models\BlogModel" not found
+#0 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\Frontend->index()
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}

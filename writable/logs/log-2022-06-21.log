@@ -1,0 +1,215 @@
+CRITICAL - 2022-06-21 05:10:21 --> syntax error, unexpected variable "$this"
+#0 /home/linuxmilcl/public_html/projects/etp/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxmilc...')
+#1 /home/linuxmilcl/public_html/projects/etp/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-21 05:10:43 --> syntax error, unexpected identifier "render_page"
+#0 /home/linuxmilcl/public_html/projects/etp/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxmilc...')
+#1 /home/linuxmilcl/public_html/projects/etp/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-21 05:10:57 --> Call to undefined function App\Controllers\render_page()
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-21 05:12:13 --> Call to undefined function App\Controllers\render_page()
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-21 05:12:16 --> Call to undefined function App\Controllers\render_page()
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-21 05:13:16 --> Call to undefined function App\Controllers\render_page()
+#0 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-21 05:43:33 --> require_once(admin_header.php): Failed to open stream: No such file or directory
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ad...', '/home/linuxmilc...', 1)
+#1 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/dashboard.php(1): require_once()
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#5 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(9): view('admin/dashboard')
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#8 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-21 09:47:32 --> require_once(admin_header.php): Failed to open stream: No such file or directory
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ad...', '/home/linuxmilc...', 1)
+#1 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/dashboard.php(1): require_once()
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#5 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(9): view('admin/dashboard')
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#8 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-21 09:47:42 --> include(topbar.php): Failed to open stream: No such file or directory
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/templates/admin_header.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(topbar....', '/home/linuxmilc...', 43)
+#1 /home/linuxmilcl/public_html/projects/etp/app/Views/templates/admin_header.php(43): include()
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('templates/admin...', Array, true)
+#5 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Testimonials.php(16): view('templates/admin...')
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Testimonials->index()
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testimonials))
+#8 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-21 09:47:50 --> include(topbar.php): Failed to open stream: No such file or directory
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/templates/admin_header.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(topbar....', '/home/linuxmilc...', 43)
+#1 /home/linuxmilcl/public_html/projects/etp/app/Views/templates/admin_header.php(43): include()
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('templates/admin...', Array, true)
+#5 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Testimonials.php(16): view('templates/admin...')
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Testimonials->index()
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testimonials))
+#8 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-21 09:48:30 --> require_once(admin_header.php): Failed to open stream: No such file or directory
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/view_testimonials.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ad...', '/home/linuxmilc...', 1)
+#1 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/view_testimonials.php(1): require_once()
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/view_test...', Array, true)
+#5 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Testimonials.php(17): view('admin/view_test...', Array)
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Testimonials->index()
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testimonials))
+#8 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-21 09:49:56 --> require_once(admin_header.php): Failed to open stream: No such file or directory
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/edit_testimonials.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ad...', '/home/linuxmilc...', 1)
+#1 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/edit_testimonials.php(1): require_once()
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/edit_test...', Array, true)
+#5 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Testimonials.php(107): view('admin/edit_test...', Array)
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Testimonials->singleTestimonial('17')
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testimonials))
+#8 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-21 09:51:57 --> require_once(admin_header.php): Failed to open stream: No such file or directory
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/edit_testimonials.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ad...', '/home/linuxmilc...', 1)
+#1 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/edit_testimonials.php(1): require_once()
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/edit_test...', Array, true)
+#5 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Testimonials.php(111): view('admin/edit_test...', Array)
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Testimonials->singleTestimonial('17')
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testimonials))
+#8 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-21 09:53:39 --> require_once(admin_header.php): Failed to open stream: No such file or directory
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/add_testimonials.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ad...', '/home/linuxmilc...', 1)
+#1 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/add_testimonials.php(1): require_once()
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/add_testi...', Array, true)
+#5 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Testimonials.php(23): view('admin/add_testi...')
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Testimonials->create()
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testimonials))
+#8 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-21 09:55:07 --> Undefined variable $meta_keywords
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Testimonials.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 64)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Testimonials->store()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testimonials))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 09:56:08 --> Undefined variable $meta_keywords
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Testimonials.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 64)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Testimonials->store()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testimonials))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 09:57:20 --> Undefined variable $meta_keywords
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Testimonials.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 64)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Testimonials->store()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testimonials))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 10:12:21 --> Invalid file: admin/edit_testimonials.php
+#0 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/edit_test...')
+#1 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/edit_test...', Array, true)
+#2 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Testimonials.php(113): view('admin/edit_test...', Array)
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Testimonials->singleTestimonial('29')
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testimonials))
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-21 10:13:03 --> include(topbar.php): Failed to open stream: No such file or directory
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/testimonial/view_testimonials.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(topbar....', '/home/linuxmilc...', 6)
+#1 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/testimonial/view_testimonials.php(6): include()
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/testimoni...', Array, true)
+#5 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Testimonials.php(17): view('admin/testimoni...', Array)
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Testimonials->index()
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testimonials))
+#8 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-21 10:13:45 --> include(topbar.php): Failed to open stream: No such file or directory
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/testimonial/view_testimonials.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(topbar....', '/home/linuxmilc...', 6)
+#1 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/testimonial/view_testimonials.php(6): include()
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/testimoni...', Array, true)
+#5 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Testimonials.php(17): view('admin/testimoni...', Array)
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Testimonials->index()
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testimonials))
+#8 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-21 12:16:43 --> require_once(admin_header.php): Failed to open stream: No such file or directory
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ad...', '/home/linuxmilc...', 1)
+#1 /home/linuxmilcl/public_html/projects/etp/app/Views/admin/dashboard.php(1): require_once()
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#5 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(9): view('admin/dashboard')
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#8 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-21 12:18:36 --> Invalid file: template/admin_header.php
+#0 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/admin_...')
+#1 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('template/admin_...', Array, true)
+#2 /home/linuxmilcl/public_html/projects/etp/app/Controllers/DashboardController.php(9): view('template/admin_...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-21 13:19:15 --> Unknown column 'title' in 'field list'
+ERROR - 2022-06-21 13:27:45 --> Unknown column 'title' in 'field list'

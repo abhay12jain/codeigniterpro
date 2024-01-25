@@ -1,0 +1,267 @@
+ERROR - 2022-09-14 11:11:30 --> Column 'tender_name' cannot be null
+ERROR - 2022-09-14 11:44:20 --> Table 'linuxmilcl_pratap.testimonials' doesn't exist
+CRITICAL - 2022-09-14 11:44:20 --> Call to a member function getResult() on bool
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/Frontend.php(29): CodeIgniter\BaseModel->findAll()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\Frontend->index()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-09-14 11:49:54 --> Table 'linuxmilcl_pratap.testimonials' doesn't exist
+CRITICAL - 2022-09-14 11:49:54 --> Call to a member function getResult() on bool
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/Frontend.php(29): CodeIgniter\BaseModel->findAll()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\Frontend->index()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-09-14 12:00:52 --> Column 'tender_id' cannot be null
+ERROR - 2022-09-14 12:00:57 --> Column 'tender_id' cannot be null
+ERROR - 2022-09-14 12:05:06 --> Column 'tender_name' cannot be null
+CRITICAL - 2022-09-14 12:30:25 --> syntax error, unexpected token "return"
+#0 /home/linuxmilcl/public_html/projects/pratap/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxmilc...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-14 12:32:19 --> Column 'tender_name' cannot be null
+ERROR - 2022-09-14 12:34:34 --> Column 'tender_name' cannot be null
+CRITICAL - 2022-09-14 12:34:34 --> Array to string conversion
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/home/linuxmilc...', 250)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->add_tender()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-14 12:37:25 --> Column 'tender_name' cannot be null
+CRITICAL - 2022-09-14 12:37:25 --> Array to string conversion
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/home/linuxmilc...', 252)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->add_tender()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-14 12:39:09 --> Column 'tender_name' cannot be null
+CRITICAL - 2022-09-14 12:39:09 --> Object of class App\Models\TenderModel could not be converted to string
+#0 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->add_tender()
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-09-14 12:39:24 --> Column 'tender_name' cannot be null
+CRITICAL - 2022-09-14 12:39:24 --> Object of class App\Models\TenderModel could not be converted to string
+#0 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->add_tender()
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-09-14 12:42:45 --> Column 'tender_name' cannot be null
+ERROR - 2022-09-14 12:56:51 --> Column 'tender_name' cannot be null
+ERROR - 2022-09-14 12:58:30 --> Column 'tender_name' cannot be null
+ERROR - 2022-09-14 13:04:09 --> Column 'tender_name' cannot be null
+ERROR - 2022-09-14 13:27:15 --> Column 'tender_name' cannot be null
+ERROR - 2022-09-14 13:29:44 --> Column 'tender_name' cannot be null
+ERROR - 2022-09-14 13:30:16 --> Column 'tender_name' cannot be null
+ERROR - 2022-09-14 13:31:52 --> Column 'tender_name' cannot be null
+ERROR - 2022-09-14 13:32:59 --> Column 'start_date' cannot be null
+ERROR - 2022-09-14 13:33:19 --> Column 'start_date' cannot be null
+ERROR - 2022-09-14 13:36:51 --> Column 'start_date' cannot be null
+ERROR - 2022-09-14 13:49:01 --> Column 'start_date' cannot be null
+ERROR - 2022-09-14 14:02:44 --> Column 'start_date' cannot be null
+ERROR - 2022-09-14 14:04:41 --> Column 'start_date' cannot be null
+ERROR - 2022-09-14 14:06:04 --> Column 'start_date' cannot be null
+ERROR - 2022-09-14 14:07:19 --> Column 'start_date' cannot be null
+ERROR - 2022-09-14 14:45:53 --> Column 'start_date' cannot be null
+ERROR - 2022-09-14 15:39:44 --> Column 'start_date' cannot be null
+CRITICAL - 2022-09-14 16:14:51 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/product_edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 4)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(309): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->product_edit('101')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-14 16:14:58 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/product_edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 4)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(309): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->product_edit('1')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-14 16:15:04 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/product_edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 4)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(309): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->product_edit('101')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-14 16:19:13 --> syntax error, unexpected token "public"
+#0 /home/linuxmilcl/public_html/projects/pratap/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxmilc...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-14 16:21:51 --> syntax error, unexpected token "public"
+#0 /home/linuxmilcl/public_html/projects/pratap/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxmilc...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-14 16:23:08 --> Column 'start_date' cannot be null
+CRITICAL - 2022-09-14 16:32:11 --> Undefined constant "php"
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include()
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('templates/publi...', Array, true)
+#3 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(155): view('templates/publi...')
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_show()
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-14 16:33:11 --> Undefined constant "php"
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include()
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('templates/publi...', Array, true)
+#3 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(155): view('templates/publi...')
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_show()
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-14 17:45:45 --> syntax error, unexpected token "public"
+#0 /home/linuxmilcl/public_html/projects/pratap/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxmilc...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-14 17:46:43 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/product_edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 4)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(336): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->product_edit('101')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-14 17:53:37 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/product_edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 4)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(336): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->product_edit('101')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-14 17:55:30 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/product_edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 4)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(336): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->product_edit('101')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-14 17:55:34 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/product_edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 4)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(336): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->product_edit('101')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-14 17:55:37 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/product_edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 4)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(336): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->product_edit('101')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-14 17:55:46 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/product_edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 4)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(336): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->product_edit('101')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-14 17:57:00 --> Trying to access array offset on value of type null
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/product_edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/linuxmilc...', 4)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(336): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->product_edit('101')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-14 18:02:40 --> Undefined array key "names"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/tender_edit.php(387): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 387)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(269): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_edit('101')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-14 18:05:23 --> Undefined array key "t_name"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/tender_edit.php(387): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 387)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(269): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_edit('101')
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-14 18:31:11 --> Call to undefined method App\Models\TenderModel::getAll
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(155): CodeIgniter\Model->__call('getAll', Array)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->tender_show()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

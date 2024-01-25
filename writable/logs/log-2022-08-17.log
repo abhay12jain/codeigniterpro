@@ -1,0 +1,7 @@
+CRITICAL - 2022-08-17 17:24:20 --> Undefined property: App\Controllers\Usersignin::$loginModel
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Usersignin.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/linuxmilc...', 130)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->reset_password_data()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,30 @@
+CRITICAL - 2023-05-19 16:10:52 --> Class "App\Models\PagesModel" not found
+#0 C:\xampp\htdocs\pratap\system\CodeIgniter.php(825): App\Controllers\Frontend->index()
+#1 C:\xampp\htdocs\pratap\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#2 C:\xampp\htdocs\pratap\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pratap\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-19 16:10:57 --> Class "App\Models\PagesModel" not found
+#0 C:\xampp\htdocs\pratap\system\CodeIgniter.php(825): App\Controllers\Frontend->index()
+#1 C:\xampp\htdocs\pratap\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#2 C:\xampp\htdocs\pratap\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pratap\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-19 16:11:02 --> Class "App\Models\PagesModel" not found
+#0 C:\xampp\htdocs\pratap\system\CodeIgniter.php(825): App\Controllers\Frontend->index()
+#1 C:\xampp\htdocs\pratap\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#2 C:\xampp\htdocs\pratap\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pratap\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-19 16:18:24 --> Class "App\Models\PagesModel" not found
+#0 C:\xampp\htdocs\pratap\system\CodeIgniter.php(825): App\Controllers\Frontend->index()
+#1 C:\xampp\htdocs\pratap\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#2 C:\xampp\htdocs\pratap\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pratap\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-19 16:21:42 --> Class "App\Models\BlogsModel" not found
+#0 C:\xampp\htdocs\pratap\system\CodeIgniter.php(825): App\Controllers\Blogs->index()
+#1 C:\xampp\htdocs\pratap\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blogs))
+#2 C:\xampp\htdocs\pratap\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pratap\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}

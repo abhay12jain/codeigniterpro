@@ -1,0 +1,140 @@
+CRITICAL - 2022-10-21 13:39:26 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(38): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-10-21 13:51:19 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-10-21 13:51:19 --> Call to a member function getFirstRow() on bool
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/SigninController.php(61): CodeIgniter\BaseModel->first()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\SigninController->loginAuth()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-10-21 13:52:11 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-10-21 13:52:11 --> Call to a member function getResult() on bool
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/SigninController.php(61): CodeIgniter\BaseModel->findAll()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\SigninController->loginAuth()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-10-21 13:53:05 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-10-21 13:53:05 --> Call to a member function getResult() on bool
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/SigninController.php(61): CodeIgniter\BaseModel->findAll()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\SigninController->loginAuth()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-10-21 13:54:15 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-10-21 13:54:15 --> Call to a member function getResult() on bool
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/SigninController.php(61): CodeIgniter\BaseModel->findAll()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\SigninController->loginAuth()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-10-21 13:54:20 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-10-21 13:54:20 --> Call to a member function getResult() on bool
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/SigninController.php(61): CodeIgniter\BaseModel->findAll()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\SigninController->loginAuth()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-21 13:56:26 --> Undefined array key "password"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/SigninController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 73)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\SigninController->loginAuth()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 13:57:25 --> Undefined array key "name"
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/SigninController.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/linuxmilc...', 83)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\SigninController->loginAuth()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 13:58:11 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(38): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-21 13:58:30 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(38): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-21 13:58:46 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(38): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-21 13:58:51 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(38): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-21 13:59:45 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(38): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-21 13:59:53 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(38): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-21 14:03:54 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(38): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-21 14:04:04 --> Invalid file: admin/dashboard.php
+#0 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/DashboardController.php(38): view('admin/dashboard')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\DashboardController->index()
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,7 @@
+CRITICAL - 2022-09-04 14:06:36 --> Undefined variable $message
+#0 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Usersignin.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 77)
+#1 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Usersignin->forgot_password()
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usersignin))
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

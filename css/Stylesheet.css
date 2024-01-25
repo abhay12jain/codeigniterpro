@@ -1,0 +1,29 @@
+﻿body
+{
+}
+.content-wrapper {
+    padding:0.75rem 1rem;
+}
+.Modified-Input, .Modified-Select, .Modified-file {
+    /*appearance: none;*/
+    background: transparent;
+    border: none;
+    border-radius: 0.375rem;
+    color: #1c1e21;
+    flex: 1;
+    font: inherit;
+    font-size: 15px;
+    box-shadow: inset 0 0 0 2px #712cf9;
+    height: 36px;
+    outline: none;
+    padding: 0 0 0 8px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Modified-file {
+    appearance: none;
+    border: none !important;
+    height: initial;
+    padding: 10px 17px !important;
+    margin-top:0 !important;
+}

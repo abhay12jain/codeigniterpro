@@ -1,0 +1,26 @@
+﻿body {
+}
+
+
+
+
+@media(max-width:991px) {
+}
+
+@media(max-width:767px) {
+    .load-popup .modal-content {
+        background-image: none!important;
+    }
+    .log-img {
+        margin: 0px!important;
+        padding: 0px!important;
+    }
+    .flexrow.row-7-el > .element {
+        flex: 0 1 calc(100%/1);
+        max-width: calc(100%/1);
+    }
+
+    .credit {
+        width: 100%;
+    }
+}

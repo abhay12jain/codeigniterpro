@@ -1,0 +1,24 @@
+CRITICAL - 2023-05-18 12:22:56 --> Class "App\Models\BlogModel" not found
+#0 C:\xampp\htdocs\pratap\system\CodeIgniter.php(825): App\Controllers\Frontend->index()
+#1 C:\xampp\htdocs\pratap\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#2 C:\xampp\htdocs\pratap\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pratap\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-18 12:25:16 --> Class "App\Models\PagesModel" not found
+#0 C:\xampp\htdocs\pratap\system\CodeIgniter.php(825): App\Controllers\Frontend->index()
+#1 C:\xampp\htdocs\pratap\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#2 C:\xampp\htdocs\pratap\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pratap\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-18 12:27:14 --> Class "App\Models\PagesModel" not found
+#0 C:\xampp\htdocs\pratap\system\CodeIgniter.php(825): App\Controllers\Frontend->index()
+#1 C:\xampp\htdocs\pratap\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#2 C:\xampp\htdocs\pratap\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pratap\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-18 17:19:29 --> Class "App\Models\PagesModel" not found
+#0 C:\xampp\htdocs\pratap\system\CodeIgniter.php(825): App\Controllers\Frontend->index()
+#1 C:\xampp\htdocs\pratap\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#2 C:\xampp\htdocs\pratap\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pratap\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}

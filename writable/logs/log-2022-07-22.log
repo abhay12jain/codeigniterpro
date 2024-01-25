@@ -1,0 +1,159 @@
+CRITICAL - 2022-07-22 21:04:42 --> include(../../../blog/wp-load.php): Failed to open stream: No such file or directory
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/home.php(583): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../../....', '/home/linuxmilc...', 583)
+#1 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/home.php(583): include()
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#5 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Frontend.php(29): view('frontend/home', Array)
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Frontend->index()
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#8 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-22 21:05:11 --> include(../../blog/wp-load.php): Failed to open stream: No such file or directory
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/home.php(583): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../../b...', '/home/linuxmilc...', 583)
+#1 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/home.php(583): include()
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#5 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Frontend.php(29): view('frontend/home', Array)
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Frontend->index()
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#8 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-22 21:05:38 --> require(../../../../blog/wp-load.php): Failed to open stream: No such file or directory
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/home.php(583): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../../....', '/home/linuxmilc...', 583)
+#1 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/home.php(583): require()
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#5 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Frontend.php(29): view('frontend/home', Array)
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Frontend->index()
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#8 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-22 21:06:38 --> require(../../../../blog/abc.php): Failed to open stream: No such file or directory
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/home.php(583): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../../....', '/home/linuxmilc...', 583)
+#1 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/home.php(583): require()
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#5 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Frontend.php(29): view('frontend/home', Array)
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Frontend->index()
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#8 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-22 21:06:51 --> require(../../../blog/abc.php): Failed to open stream: No such file or directory
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/home.php(583): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../../....', '/home/linuxmilc...', 583)
+#1 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/home.php(583): require()
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#5 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Frontend.php(29): view('frontend/home', Array)
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Frontend->index()
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#8 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-22 21:07:39 --> require(/../../../blog/abc.php): Failed to open stream: No such file or directory
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/home.php(583): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(/../../...', '/home/linuxmilc...', 583)
+#1 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/home.php(583): require()
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#5 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Frontend.php(29): view('frontend/home', Array)
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Frontend->index()
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#8 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-22 21:07:55 --> require(../../../blog/abc.php): Failed to open stream: No such file or directory
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/home.php(583): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../../....', '/home/linuxmilc...', 583)
+#1 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/home.php(583): require()
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#3 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#5 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Frontend.php(29): view('frontend/home', Array)
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Frontend->index()
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#8 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-22 21:09:22 --> Class "WP_Query" not found
+#0 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include()
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#3 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Frontend.php(29): view('frontend/home', Array)
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Frontend->index()
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-22 21:11:46 --> syntax error, unexpected token "*", expecting end of file
+#0 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Frontend.php(29): view('frontend/home', Array)
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Frontend->index()
+#4 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-22 15:42:26 --> Cannot redeclare site_url() (previously declared in /home/linuxmilcl/public_html/projects/etp/system/Helpers/url_helper.php:80)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-22 15:42:31 --> Cannot redeclare site_url() (previously declared in /home/linuxmilcl/public_html/projects/etp/system/Helpers/url_helper.php:80)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-22 15:43:04 --> Cannot redeclare site_url() (previously declared in /home/linuxmilcl/public_html/projects/etp/system/Helpers/url_helper.php:80)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-22 15:44:00 --> Cannot redeclare site_url() (previously declared in /home/linuxmilcl/public_html/projects/etp/system/Helpers/url_helper.php:80)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-22 15:44:55 --> Cannot redeclare site_url() (previously declared in /home/linuxmilcl/public_html/projects/etp/system/Helpers/url_helper.php:80)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-22 15:45:11 --> Cannot redeclare site_url() (previously declared in /home/linuxmilcl/public_html/projects/etp/system/Helpers/url_helper.php:80)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-22 16:20:03 --> Cannot redeclare site_url() (previously declared in /home/linuxmilcl/public_html/projects/etp/system/Helpers/url_helper.php:80)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-22 21:53:09 --> Array to string conversion
+#0 /home/linuxmilcl/public_html/projects/etp/app/Views/frontend/home.php(602): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/home/linuxmilc...', 602)
+#1 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/etp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/etp/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 /home/linuxmilcl/public_html/projects/etp/app/Controllers/Frontend.php(29): view('frontend/home', Array)
+#5 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(825): App\Controllers\Frontend->index()
+#6 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#7 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/etp/index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-22 16:33:59 --> Cannot redeclare site_url() (previously declared in /home/linuxmilcl/public_html/projects/etp/system/Helpers/url_helper.php:80)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-22 16:42:40 --> Cannot redeclare site_url() (previously declared in /home/linuxmilcl/public_html/projects/etp/system/Helpers/url_helper.php:80)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-22 16:55:28 --> Cannot redeclare site_url() (previously declared in /home/linuxmilcl/public_html/projects/etp/system/Helpers/url_helper.php:80)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-22 16:57:22 --> Cannot redeclare site_url() (previously declared in /home/linuxmilcl/public_html/projects/etp/system/Helpers/url_helper.php:80)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-22 16:57:47 --> Cannot redeclare site_url() (previously declared in /home/linuxmilcl/public_html/projects/etp/system/Helpers/url_helper.php:80)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-22 16:57:51 --> Cannot redeclare site_url() (previously declared in /home/linuxmilcl/public_html/projects/etp/system/Helpers/url_helper.php:80)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-22 17:07:04 --> Cannot redeclare site_url() (previously declared in /home/linuxmilcl/public_html/projects/etp/system/Helpers/url_helper.php:80)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-22 17:18:00 --> Cannot redeclare site_url() (previously declared in /home/linuxmilcl/public_html/projects/etp/system/Helpers/url_helper.php:80)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

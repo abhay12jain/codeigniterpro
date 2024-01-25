@@ -1,0 +1,14 @@
+CRITICAL - 2022-06-18 11:16:40 --> Undefined variable $session
+#0 /home/linuxmilcl/public_html/projects/etp/app/Filters/AuthGuard.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 21)
+#1 /home/linuxmilcl/public_html/projects/etp/system/Filters/Filters.php(196): App\Filters\AuthGuard->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(429): CodeIgniter\Filters\Filters->run('admin/dashboard', 'after')
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-18 11:17:09 --> Undefined variable $session
+#0 /home/linuxmilcl/public_html/projects/etp/app/Filters/AuthGuard.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 11)
+#1 /home/linuxmilcl/public_html/projects/etp/system/Filters/Filters.php(173): App\Filters\AuthGuard->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/dashboard', 'before')
+#3 /home/linuxmilcl/public_html/projects/etp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/etp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

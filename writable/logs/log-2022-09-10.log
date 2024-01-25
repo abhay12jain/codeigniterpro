@@ -1,0 +1,135 @@
+ERROR - 2022-09-10 12:09:04 --> Table 'linuxmilcl_pratap.testimonials' doesn't exist
+CRITICAL - 2022-09-10 12:09:04 --> Call to a member function getResult() on bool
+#0 /home/linuxmilcl/public_html/projects/pratap/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/Frontend.php(29): CodeIgniter\BaseModel->findAll()
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\Frontend->index()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-10 15:17:31 --> syntax error, unexpected single-quoted string "division", expecting "]"
+#0 /home/linuxmilcl/public_html/projects/pratap/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxmilc...')
+#1 /home/linuxmilcl/public_html/projects/pratap/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-10 18:38:41 --> Undefined variable $users
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Views/frontend/dashboard/division_show.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 27)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(210): include('/home/linuxmilc...')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/linuxmilcl/public_html/projects/pratap/system/Common.php(1089): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#4 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(93): view('frontend/dashbo...', Array)
+#5 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division_show()
+#6 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#7 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-10 20:04:19 --> Undefined variable $id
+#0 /home/linuxmilcl/public_html/projects/pratap/app/Controllers/UserDashboardController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/linuxmilc...', 98)
+#1 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(825): App\Controllers\UserDashboardController->division_edit('1')
+#2 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboardController))
+#3 /home/linuxmilcl/public_html/projects/pratap/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxmilcl/public_html/projects/pratap/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-10 21:11:40 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:41 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:41 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:41 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:42 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:42 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:42 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:43 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:43 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:44 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:44 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:45 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:45 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:45 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:46 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:46 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:46 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:47 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:47 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:49 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:49 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:49 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:50 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:50 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:50 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:51 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:51 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:52 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:52 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:52 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:53 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:53 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:53 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:54 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:54 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:55 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:55 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:55 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:11:56 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:02 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:02 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:03 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:03 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:03 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:04 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:04 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:05 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:05 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:05 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:06 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:06 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:06 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:07 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:07 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:07 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:08 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:08 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:09 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:09 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:40 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:40 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:40 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:41 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:41 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:41 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:42 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:42 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:42 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:43 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:43 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:43 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:44 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:44 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:44 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:45 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:45 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:45 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:46 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:12:46 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:13:47 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:13:47 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:13:48 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:13:48 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:13:48 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:13:49 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:13:49 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:13:49 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:13:50 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:13:50 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:13:51 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:13:51 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:13:51 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:13:52 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:13:52 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:13:53 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:13:53 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:13:53 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:13:54 --> Column 'zone' cannot be null
+ERROR - 2022-09-10 21:13:54 --> Column 'zone' cannot be null
